@@ -3,8 +3,7 @@
 //  GiftADeed
 //  Created by nilesh_sinha on 04/04/18.
 //  Copyright © 2018 Mayur Yergikar. All rights reserved.
-//  kshantechsoft@gmail.com
-//  Rambo@16076
+
 import UIKit
 import SQLite
 class Constant: NSObject {
