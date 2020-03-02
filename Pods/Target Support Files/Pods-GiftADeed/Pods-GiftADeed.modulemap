@@ -1,0 +1,6 @@
+framework module Pods_GiftADeed {
+  umbrella header "Pods-GiftADeed-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,326 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.3.0)
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.8.2)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - AlertTransition/Core (2.1.0)
+  - AlertTransition/Easy (2.1.0):
+    - AlertTransition/Core
+  - AlertTransition/Menu (2.1.0):
+    - AlertTransition/Core
+  - AlertTransition/Trolley (2.1.0):
+    - AlertTransition/Core
+  - ANLoader (1.1.1)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - EFInternetIndicator (0.4.0):
+    - EFInternetIndicator/Interface (= 0.4.0)
+  - EFInternetIndicator/Interface (0.4.0):
+    - SwiftMessages
+  - EzPopup (1.0)
+  - FBSDKCoreKit (4.32.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.32.0):
+    - FBSDKCoreKit
+  - Firebase/Auth (3.15.0):
+    - Firebase/Core
+    - FirebaseAuth (= 3.1.1)
+  - Firebase/Core (3.15.0):
+    - FirebaseAnalytics (= 3.7.0)
+    - FirebaseCore (= 3.5.2)
+  - Firebase/Messaging (3.15.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 1.2.2)
+  - FirebaseAnalytics (3.7.0):
+    - FirebaseCore (~> 3.5)
+    - FirebaseInstanceID (~> 1.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseAuth (3.1.1):
+    - FirebaseAnalytics (~> 3.7)
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (3.5.2):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseDatabase (3.1.2):
+    - FirebaseAnalytics (~> 3.7)
+  - FirebaseInstanceID (1.0.9)
+  - FirebaseMessaging (1.2.2):
+    - FirebaseAnalytics (~> 3.7)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (1.1.0):
+    - FirebaseAnalytics (~> 3.7)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FLAnimatedImage (1.0.12)
+  - Google/Core (3.1.0):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.1.0):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
+  - GoogleMaps (3.7.0):
+    - GoogleMaps/Maps (= 3.7.0)
+  - GoogleMaps/Base (3.7.0)
+  - GoogleMaps/Maps (3.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.7.0):
+    - GoogleMaps/Base (= 3.7.0)
+  - GoogleSignIn (4.0.2):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/Logger (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.1)":
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.1)"
+  - GrowingTextView (0.5.5)
+  - GTMOAuth2 (1.1.4):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.9):
+    - GTMSessionFetcher/Full (= 1.1.9)
+  - GTMSessionFetcher/Core (1.1.9)
+  - GTMSessionFetcher/Full (1.1.9):
+    - GTMSessionFetcher/Core (= 1.1.9)
+  - HTMLKit (2.1.5)
+  - IOSLinkedInAPIFix (2.0.4):
+    - AFNetworking (>= 2.0.0)
+  - IQKeyboardManagerSwift (6.0.0)
+  - KCFloatingActionButton (2.2.0)
+  - LabelSwitch (0.1.4)
+  - LinkedinSwift (1.7.4):
+    - AFNetworking (>= 3.1.0)
+    - IOSLinkedInAPIFix (>= 2.0.4)
+  - ListPlaceholder (1.4)
+  - Localize-Swift (2.0.0)
+  - lottie-ios (3.1.0)
+  - MGSwipeTableCell (1.6.8)
+  - MMDrawController (0.2.5)
+  - NYTPhotoViewer (1.1.0):
+    - NYTPhotoViewer/AnimatedGifSupport (= 1.1.0)
+    - NYTPhotoViewer/Core (= 1.1.0)
+  - NYTPhotoViewer/AnimatedGifSupport (1.1.0):
+    - FLAnimatedImage (~> 1.0.8)
+    - NYTPhotoViewer/Core
+  - NYTPhotoViewer/Core (1.1.0)
+  - ParallaxHeader (1.0.6)
+  - Popover (1.1.0)
+  - PopOverMenu (2.1.1)
+  - Protobuf (3.2.0)
+  - ReachabilitySwift (4.1.0)
+  - RSKImageCropper (2.2.1)
+  - RSReusable (1.0.12)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SendBirdSDK (3.0.135)
+  - SnapKit (4.0.0)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+  - SwiftGifOrigin (1.6.1)
+  - SwiftMessages (7.0.1):
+    - SwiftMessages/App (= 7.0.1)
+  - SwiftMessages/App (7.0.1)
+  - Toast-Swift (3.0.1)
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - AlamofireImage
+  - AlertTransition/Easy (~> 2.1.0)
+  - AlertTransition/Menu (~> 2.1.0)
+  - AlertTransition/Trolley (~> 2.1.0)
+  - ANLoader (from `https://github.com/ANSCoder/ANLoader.git`)
+  - EFInternetIndicator
+  - EzPopup
+  - FBSDKLoginKit
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Messaging
+  - FirebaseDatabase
+  - FirebaseStorage
+  - FLAnimatedImage (~> 1.0)
+  - Google/SignIn
+  - GoogleMaps (= 3.7.0)
+  - GooglePlaces (= 3.7.0)
+  - GoogleSignIn
+  - GrowingTextView (~> 0.5)
+  - HTMLKit (~> 2.0)
+  - IQKeyboardManagerSwift (= 6.0.0)
+  - KCFloatingActionButton
+  - LabelSwitch
+  - LinkedinSwift
+  - ListPlaceholder
+  - Localize-Swift (~> 2.0)
+  - lottie-ios
+  - MGSwipeTableCell
+  - MMDrawController
+  - NYTPhotoViewer (~> 1.1.0)
+  - ParallaxHeader (~> 1.0.6)
+  - Popover
+  - PopOverMenu
+  - ReachabilitySwift
+  - RSKImageCropper
+  - RSReusable
+  - SDWebImage (~> 4.0)
+  - SendBirdSDK (~> 3.0)
+  - SnapKit
+  - SQLite.swift (~> 0.11.5)
+  - SwiftGifOrigin (~> 1.6.1)
+  - Toast-Swift (~> 3.0.1)
+  - TTTAttributedLabel
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ActionSheetPicker-3.0
+    - AFNetworking
+    - Alamofire
+    - AlamofireImage
+    - AlertTransition
+    - Bolts
+    - EFInternetIndicator
+    - EzPopup
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseStorage
+    - FLAnimatedImage
+    - Google
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GrowingTextView
+    - GTMOAuth2
+    - GTMSessionFetcher
+    - HTMLKit
+    - IOSLinkedInAPIFix
+    - IQKeyboardManagerSwift
+    - KCFloatingActionButton
+    - LabelSwitch
+    - LinkedinSwift
+    - ListPlaceholder
+    - Localize-Swift
+    - lottie-ios
+    - MGSwipeTableCell
+    - MMDrawController
+    - NYTPhotoViewer
+    - ParallaxHeader
+    - Popover
+    - PopOverMenu
+    - Protobuf
+    - ReachabilitySwift
+    - RSKImageCropper
+    - RSReusable
+    - SDWebImage
+    - SendBirdSDK
+    - SnapKit
+    - SQLite.swift
+    - SwiftGifOrigin
+    - SwiftMessages
+    - Toast-Swift
+    - TTTAttributedLabel
+
+EXTERNAL SOURCES:
+  ANLoader:
+    :git: https://github.com/ANSCoder/ANLoader.git
+
+CHECKOUT OPTIONS:
+  ANLoader:
+    :commit: 8813fb34960973bd9b7199b6461442bfe7ec4c36
+    :git: https://github.com/ANSCoder/ANLoader.git
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: eef157d75e151f255c5333d26656c7fbfe905a51
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  AlertTransition: a5ebd60b8858b2530be539686bd301ec61e5634f
+  ANLoader: a77cf1634bd0f021647d385b1dfce51531b47d87
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  EFInternetIndicator: a6077679e15191889a783a06624390b73e8109dc
+  EzPopup: 8ab951717736197e57b8f9973816fa2601cd59c5
+  FBSDKCoreKit: 55d7f2ac45d9c4b9b6119f4e43900fe84b9b7b1b
+  FBSDKLoginKit: 32ac05c2a59952c363c2e85aafa8f73ba93bcbad
+  Firebase: 2b1cdfba1cda8589f32904a697cc753322bff9d8
+  FirebaseAnalytics: 0d1b7d81d5021155be37702a94ba1ec16d45365d
+  FirebaseAuth: cc8a1824170adbd351edb7f994490a3fb5c18be6
+  FirebaseCore: a024587e43778508700af8c6b1209f7c4516ba02
+  FirebaseDatabase: 05c96d7b43a7368dc91c07791adb49683e1738d1
+  FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
+  FirebaseMessaging: df8267f378580a24174ce7861233aa11d5c90109
+  FirebaseStorage: a5c55b23741a49a72af8f30f95b3bb5ddbeda12d
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Google: 98da4b1a60ed0beb80a290387a28333406a1eb90
+  GoogleMaps: 55da829c68aa931f3ae982b9e341cc2f3d89c587
+  GooglePlaces: a62077320f9d64239245af63aa1aa136393ebeb6
+  GoogleSignIn: d7ad83f13480e1f30453471d00d19b5293ac46af
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GrowingTextView: 8ea0aa547c567521ab066452c12784a460ff6e8d
+  GTMOAuth2: 4eb69243935d2ca2650f8b18026770de5dc19e87
+  GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
+  HTMLKit: 91dbd983c94f264c6ddea27d317f5a66368dd20b
+  IOSLinkedInAPIFix: a520fd805a03dade35f42904c7d89ded2a84c752
+  IQKeyboardManagerSwift: 624f128983eec795deacd50c1cd2f72664d13f08
+  KCFloatingActionButton: 8c71fa25774e422c8d407f82b4b27809d0cd5233
+  LabelSwitch: 73ca5a7c23c0aa1604793d69e116af0115c5fa59
+  LinkedinSwift: fba071cbbcedf42471f45c0cd2438cba3f6c9c7c
+  ListPlaceholder: 08ddaddf67520a20fc52cf37160fb56aa64d071d
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  lottie-ios: 9467723922dfff46f6d4e3019c32594a62440b7c
+  MGSwipeTableCell: dc4eca3212ed38a563b27d6aa7b3c01ce656c1e2
+  MMDrawController: 16dcb56474b333381d0abdeb645170f74921af4d
+  NYTPhotoViewer: e80e8767f3780d2df37c6f72cbab15d6c7232911
+  ParallaxHeader: 18ef35dfee4e565e2ef8b8d21c16d856ab1f424a
+  Popover: 8b4330c16d9e72f1ea8a2f6783d83b8692ae8776
+  PopOverMenu: 5f979dd945d8dc05f1d11e960116ad217f7d04b6
+  Protobuf: 745f59e122e5de98d4d7ef291e264a0eef80f58e
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  RSKImageCropper: 98296ad26b41753f796b6898d015509598f13d97
+  RSReusable: e7888dff90fbaf01b9b01169875730be4a04e818
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SendBirdSDK: 19f49ff0a82b41a62caf2d8800f1b899d947207c
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
+  SwiftMessages: b577dc7043be8b299857ab35bb663dbff6483bd0
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: 0aa150e8346e4db59025606ad0b8d5bea3506624
+
+COCOAPODS: 1.8.4

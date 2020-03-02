@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MarkerInfoView" customModule="GiftADeed" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="202" height="173"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zb0-LO-Lyp">
+                    <rect key="frame" x="0.0" y="0.0" width="202" height="61"/>
+                    <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="0.91676476880000002" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="61" id="hIL-P1-gqj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uu1-Wy-AnG">
+                    <rect key="frame" x="95" y="69" width="99" height="66"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="33" id="CVB-Mb-DbL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rm7-wv-AZs">
+                    <rect key="frame" x="0.0" y="143" width="202" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="0.91676476880000002" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
+                    <state key="normal" title="View Detail">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="03p-Jw-6Hz">
+                    <rect key="frame" x="185" y="-8" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="pUe-9M-5PK"/>
+                        <constraint firstAttribute="height" constant="24" id="rEL-lm-AQ5"/>
+                    </constraints>
+                    <state key="normal" image="error"/>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nef-bi-jsT">
+                    <rect key="frame" x="0.0" y="61" width="80" height="83"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="egb-k1-duD"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rm7-wv-AZs" firstAttribute="top" secondItem="uu1-Wy-AnG" secondAttribute="bottom" constant="8" id="3C9-KO-S2W"/>
+                <constraint firstItem="rm7-wv-AZs" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="3kl-YD-I3x"/>
+                <constraint firstItem="rm7-wv-AZs" firstAttribute="top" secondItem="nef-bi-jsT" secondAttribute="bottom" constant="-1" id="6gG-Bl-PgQ"/>
+                <constraint firstItem="Zb0-LO-Lyp" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Miy-Sb-MVy"/>
+                <constraint firstItem="03p-Jw-6Hz" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="7" id="OoY-0b-qvz"/>
+                <constraint firstAttribute="trailing" secondItem="Zb0-LO-Lyp" secondAttribute="trailing" id="OzR-r5-url"/>
+                <constraint firstItem="uu1-Wy-AnG" firstAttribute="leading" secondItem="nef-bi-jsT" secondAttribute="trailing" constant="15" id="PMp-9O-CcD"/>
+                <constraint firstItem="uu1-Wy-AnG" firstAttribute="top" secondItem="Zb0-LO-Lyp" secondAttribute="bottom" constant="8" id="TCQ-Pf-yzW"/>
+                <constraint firstItem="03p-Jw-6Hz" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="-8" id="UqX-Nl-a7i"/>
+                <constraint firstItem="Zb0-LO-Lyp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="WcW-41-DDx"/>
+                <constraint firstItem="nef-bi-jsT" firstAttribute="centerY" secondItem="uu1-Wy-AnG" secondAttribute="centerY" id="ca7-Ih-6TR"/>
+                <constraint firstItem="rm7-wv-AZs" firstAttribute="top" secondItem="Zb0-LO-Lyp" secondAttribute="bottom" constant="82" id="h41-xB-Qdv"/>
+                <constraint firstItem="rm7-wv-AZs" firstAttribute="leading" secondItem="Zb0-LO-Lyp" secondAttribute="leading" id="l6o-jd-qzT"/>
+                <constraint firstItem="nef-bi-jsT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="sbd-2t-wYg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="uu1-Wy-AnG" secondAttribute="trailing" constant="8" id="sqg-aF-ZhA"/>
+                <constraint firstItem="rm7-wv-AZs" firstAttribute="trailing" secondItem="03p-Jw-6Hz" secondAttribute="trailing" constant="-7" id="yBA-5g-NRT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="addressConstraint" destination="hIL-P1-gqj" id="e5y-mA-dhB"/>
+                <outlet property="addressLbl" destination="Zb0-LO-Lyp" id="yMX-AF-ZLt"/>
+                <outlet property="btn2" destination="rm7-wv-AZs" id="Fof-YL-bQe"/>
+                <outlet property="closeBtn" destination="03p-Jw-6Hz" id="1Kw-Av-gDj"/>
+                <outlet property="nameLabel" destination="uu1-Wy-AnG" id="MEs-NZ-quU"/>
+                <outlet property="placePhoto" destination="nef-bi-jsT" id="0X1-Dg-djP"/>
+            </connections>
+            <point key="canvasLocation" x="-782.39999999999998" y="43.628185907046479"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="error" width="512" height="512"/>
+    </resources>
+</document>

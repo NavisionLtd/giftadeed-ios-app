@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OpenChannelListViewController">
+            <connections>
+                <outlet property="navItem" destination="y5U-Mb-J7s" id="8Xs-nK-1sz"/>
+                <outlet property="tableView" destination="H1p-XH-aVI" id="pTz-UQ-oRu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dcz-mA-FM4" customClass="CustomNavigationBar" customModule="GiftADeed" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="PkJ-7L-ls5"/>
+                    </constraints>
+                    <color key="tintColor" red="0.50196078431372548" green="0.3529411764705882" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="barTintColor" red="0.94117647058823528" green="0.94901960784313721" blue="0.96862745098039216" alpha="0.90051185344827589" colorSpace="calibratedRGB"/>
+                    <items>
+                        <navigationItem title="Inspire Community" id="y5U-Mb-J7s">
+                            <barButtonItem key="leftBarButtonItem" image="menu" id="xft-e8-q7Q">
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="menuBtnPress:" destination="-1" id="cqL-oW-kxb"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="H1p-XH-aVI">
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="separatorColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epb-r4-wqq">
+                    <rect key="frame" x="0.0" y="637" width="375" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.44705882349999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Close">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="closeBtnPress:" destination="-1" eventType="touchUpInside" id="SAV-YZ-zQx"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="H1p-XH-aVI" secondAttribute="trailing" id="2Ax-uZ-4bG"/>
+                <constraint firstAttribute="trailing" secondItem="epb-r4-wqq" secondAttribute="trailing" id="FhV-jr-QrH"/>
+                <constraint firstItem="Dcz-mA-FM4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="KSr-jS-hoM"/>
+                <constraint firstItem="H1p-XH-aVI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gGH-Ax-t9D"/>
+                <constraint firstAttribute="trailing" secondItem="Dcz-mA-FM4" secondAttribute="trailing" id="hUb-5v-mjS"/>
+                <constraint firstAttribute="bottom" secondItem="H1p-XH-aVI" secondAttribute="bottom" id="o44-8z-oZr"/>
+                <constraint firstAttribute="bottom" secondItem="epb-r4-wqq" secondAttribute="bottom" id="sUi-YY-rZ6"/>
+                <constraint firstItem="H1p-XH-aVI" firstAttribute="top" secondItem="Dcz-mA-FM4" secondAttribute="bottom" id="umM-As-OTH"/>
+                <constraint firstItem="Dcz-mA-FM4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="wzW-0p-PeR"/>
+                <constraint firstItem="epb-r4-wqq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zef-C9-kaz"/>
+            </constraints>
+            <point key="canvasLocation" x="23.199999999999999" y="50.824587706146929"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="menu" width="30" height="20"/>
+    </resources>
+</document>
